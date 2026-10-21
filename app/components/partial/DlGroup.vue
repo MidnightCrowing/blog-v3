@@ -54,7 +54,7 @@ withDefaults(defineProps<{
 .dl-group.medium {
 	display: grid;
 	grid-template-columns: auto auto;
-	gap: 0.4em 8%;
+	gap: 0.4em 4%;
 	padding: 0.2em 0;
 
 	> div {

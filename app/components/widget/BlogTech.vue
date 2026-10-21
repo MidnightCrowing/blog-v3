@@ -63,4 +63,8 @@ const expand = ref(false)
 	height: 1.2em;
 	vertical-align: sub;
 }
+.dl-group.medium :deep(dt),
+.dl-group.medium :deep(dd) {
+	white-space: nowrap;
+}
 </style>
