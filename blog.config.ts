@@ -77,8 +77,8 @@ const blogConfig = {
 			type: 'text/javascript',
 			innerHTML: '(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z0o3yzw2zs");',
 		},
-		// Twikoo 评论系统
-		{ src: 'https://s4.zstatic.net/npm/twikoo@1.7.20/dist/twikoo.min.js', defer: true },
+		// Twikoo 评论系统（2.x 匹配后端 2.0.17）
+		{ src: 'https://s4.zstatic.net/npm/twikoo@2.0.17/dist/twikoo.min.js', defer: true },
 	],
 
 	/** 文章统计配置 */
